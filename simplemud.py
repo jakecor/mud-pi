@@ -31,6 +31,7 @@ from mudserver import MudServer
 rooms = {
     "Tavern": {
         "description": "You're in a cozy tavern warmed by an open fire.",
+        "fire": "A glowing fire that was just created.",
         "exits": {"outside": "Outside"},
     },
     "Outside": {
