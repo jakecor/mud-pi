@@ -34,8 +34,12 @@ rooms = {
         "exits": {"outside": "Outside"},
     },
     "Outside": {
-        "description": "You're standing outside a tavern. It's raining.",
-        "exits": {"inside": "Tavern"},
+        "description": "You're standing outside a tavern. It's raining. North of you is a shed.",
+        "exits": {"inside": "Tavern","north":"Shed"},
+    },
+    "Shed": {
+        "description": "You're standing inside a shed. It's protecting you from the rain. There's a dartboard with a photo of Sam's face on it.",
+        "exits": {"outside": "Outside"},
     }
 }
 
